@@ -157,20 +157,20 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
-"portal/general/intercom-etiquette.md": {
-	id: "portal/general/intercom-etiquette.md";
+"portal/general/intercom-etiquette.mdx": {
+	id: "portal/general/intercom-etiquette.mdx";
   slug: "portal/general/intercom-etiquette";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"portal/video/shading-training.md": {
-	id: "portal/video/shading-training.md";
+} & { render(): Render[".mdx"] };
+"portal/video/shading-training.mdx": {
+	id: "portal/video/shading-training.mdx";
   slug: "portal/video/shading-training";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
+} & { render(): Render[".mdx"] };
 };
 
 	};
