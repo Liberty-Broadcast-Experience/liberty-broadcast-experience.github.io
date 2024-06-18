@@ -13,15 +13,14 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
+					label: 'Video',
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
+						autogenerate: { directory: 'portal/video/' },
+					
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'General',
+					autogenerate: { directory: 'portal/general/' },
 				},
 			],
 		}),

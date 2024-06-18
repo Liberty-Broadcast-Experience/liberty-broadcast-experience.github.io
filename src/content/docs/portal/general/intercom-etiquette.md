@@ -1,0 +1,51 @@
+---
+title: Intercom Etiquette
+description: A reference page in my new Starlight docs site.
+---
+Intercom is the cornerstone of all production communication. It is crucial to know how to use this system of communication efficiently and properly.
+
+## Pre-show
+Pre-show is considered to last from call time until the end of soundcheck.
+All positions should test intercom upon arriving to the position. Be sure to look and make sure that you have the correct pack. Then make
+sure you have the correct Party Lines (PL). Feel free to send a Microsoft Teams message requesting to test intercom to Green Hall. Typically, someone is in Green Hall and listening to all channels upon call time.
+
+When checking in for Pre-show, please announce who you are, location (if applicable), and PL. For example:
+> This is [NAME] checking in on [CHANNEL].
+
+It is also helpful to let everyone who might be listening know that you are going off intercom:
+> [POSITION] off comm.
+
+## Show
+10:15 a.m. for Convocation, 6:45 p.m. for Campus Community. The default time tends to be 15 minutes before show.
+All positions should be on intercom 15 minutes prior to show, unless communicated otherwise. This will allow any last minute requests to be communicated. When checking in for show, follow the same procedure outlined above for pre-show:
+
+> This is [NAME] checking in on [CHANNEL].
+
+When wanting to talk to another PL, announce who you are, who you're trying to reach, and which PL you're talking on.  For example:
+> [SENDER] to [RECIPIENT] on [CHANNEL].
+
+When being told something either as a group or individually, the listener should acknowledge by a simple response:
+
+> [POSITION] copies.
+
+## Post-show
+This is considered to be from when the crowd is dismissed to ~5 minutes after show.
+It is imperitave that all positions remain on intercom at the conclusion of the event. There are often last-minute announcements that need to be made from stage. **Either the Stage Manager or Tech Manager will release you, this is when you are free to go off intercom.** Make sure that you return all headsets and packs to the Tech Manager, unless told to leave them in an alternate location. Please report any gear-related technical issues to a Unit Production Manager (UPM) or Tech Manager. This can be via Teams, email, or in person. It is key that the Broadcast Engineering team has this info before the next event, so that way issues can be fixed. If you change any settings, please put them back to the way you found it.
+
+---
+
+## Terminology
+### General terms
+- **Party Line (PL)**: Intercom channel used to have multiple people talk on at one time.
+- **Point to Point (P2P)**: A direct intercom channel to an intercom panel. Nobody else can hear it.
+- **Latch**: Keeping your mic open on a channel.
+- **PCR**: Production Control Room.
+- **ACR**: Audio Control Room.
+
+### Production Party Lines
+- **CAMS**: For all camera communication. The director will latch onto this.
+- **STGE**: For all stage communication and directions. Also used for Production and Director communication.
+- **A2**: For all audio related communication.
+- **LITE**: For all lighting related communication.
+- **LED**: For all LED related communication.
+- **OSD**: Strictly used for OSD/Client communication to the Director.
