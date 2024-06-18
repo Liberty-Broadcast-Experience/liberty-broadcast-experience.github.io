@@ -136,13 +136,6 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"docs": {
-"guides/example.md": {
-	id: "guides/example.md";
-  slug: "guides/example";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
 "index.mdx": {
 	id: "index.mdx";
   slug: "index";
@@ -150,9 +143,23 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
-"reference/example.md": {
-	id: "reference/example.md";
-  slug: "reference/example";
+"portal/general/example.md": {
+	id: "portal/general/example.md";
+  slug: "portal/general/example";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"portal/home.mdx": {
+	id: "portal/home.mdx";
+  slug: "portal/home";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/video/shading-training.md": {
+	id: "portal/video/shading-training.md";
+  slug: "portal/video/shading-training";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">

@@ -1,0 +1,67 @@
+---
+title: Shading Training
+description: A breakdown of everything shading related.
+---
+
+## Part 2
+### Waveform: Understanding brightness
+First up is the waveform.
+This handy tool reads color luminance or brightness in an image. On the left, you'll see a luminosity scale, which measures the brightness levels of your video signal. Zero at the bottom represents pure black, and anything below this is “clipped,” meaning it has lost all information. At the top, 700 represents pure white, and anything above is also clipped. When you adjust your camera’s exposure, the waveform will show these changes. The goal is to avoid clipping in the shadows and minimize it in the highlights. A little clipping in the highlights is okay, but keep it to a minimum.
+
+### Vectorscope: Seeing colors
+Next is the YUV vectorscope. This tool shows the intensity of colors in a video signal. It displays red, magenta, blue, cyan, green, and yellow. The further a color is from the center, the more saturated it is. The graph's layout indicates each color's hue and saturation. At the center, saturation is at or near zero—perfect for checking your white balance. If your video has a color tint, the white blob in the center will move off-center. Small adjustments can bring it back, correcting your white balance. For skin tones, the vectorscope is also essential. Skin tones should fall within a specific area to avoid looking too yellow-green or red-magenta.
+
+### Using the scopes
+Now, which scope do you use and when? Let’s start with white balancing. Imagine you have several cameras that haven't been white-balanced. As you go through each one, the vectorscope will jump to the center every time you press auto-white. Before the cameras leave the chart, use the router panel to view each camera in the vectorscope, ensuring they’re centered. Small lighting inconsistencies can affect white balance, so it’s best to fix them now rather than later.
+
+When setting black levels, close the iris and use the master black wheel to lower the black level to just above zero. Use the router to switch through all the cameras, identifying and correcting any discrepancies in black balance.
+
+### Real-world scenarios
+#### Outdoor sports at sunset
+When shading outdoor sports near sunset, the sun's color temperature changes, and stadium lights start to illuminate the field. These lights have a different white balance than the sun, causing white to turn orange and magenta, and grass to turn orange and yellow. As the sunlight fades, you’ll need to adjust the white balance and tint of your cameras to keep everything consistent. The vectorscope is crucial here. During the pre-show, once all your cameras are painted, place a small piece of painter’s tape next to where green grass should be. As the sun sets and green shifts, use your color pots and RGB gain to realign it. Keep an eye on the white blob in the center of your vectorscope and adjust as needed. This is a gradual process, so keep checking your sources to spot any problem cameras.
+
+#### Matching exposure between cameras
+When the director switches between shots, the exposure should remain consistent. In a controlled studio setting, we can precisely set exposure using the waveform. For skin tones, aim for a range between four-hundred and six-hundred on the waveform. Switch between camera angles to ensure consistency.
+
+### Final thoughts
+Shading can often be a gradual process. Do not get tunnel visioned into “what looks okay.” Your eyes and brain overtime will adjust to the colors. Try to reset your eyes by looking at other cameras and using your vectorscope and waveform to get a more accurate picture of what you are truly looking at.
+These tools are here to help you create beautiful images, not to dictate absolute right or wrong.
+
+They can help you stay focused. Even if two cameras have the same settings, they might not actually look the same. Consistency is verified by visually comparing images to each other and using tools like the waveform and vectorscope.
+
+---
+## Part 3
+### Matching RF cameras
+Here’s the plan: we’ll start by plugging the RF camera into another camera’s optical-con cable, hit a white and black balance, set black levels, paint the camera, and save all settings as a scene file. Once that’s done, the camera operator will unplug from the optical-con and recall the scene file saved to their camera body. Then, we’ll continue painting the other cameras and make sure the RF camera matches the CCU cameras. If there are any mismatches, we can make small adjustments on the camera side. And that’s it. Let’s break it down.
+
+### The step-by-step process
+#### Get control of the camera
+<Callout type="info">RF stands for radio frequency, meaning it wirelessly sends its video signal to a receiver that feeds it back to the control room. Some RF units allow remote control, but most don’t.</Callout>
+For this training, let’s assume we can’t control anything remotely. That’s why we need the camera body to plug into someone else’s cable, a process called “stabbing in.” Once the RF’s camera body is connected, we have control.
+
+#### A basic paint
+With control in hand, we start by resetting all settings to standard. Then, we perform a white and black balance. Indoors, use a chart with frontlight, or a piece of paper if you don’t have a chart. Outdoors, use something white that’s in direct sunlight. You can expect small differences between cameras, but these can be corrected later. After the white balance, do a black balance and set master black levels.
+
+#### More advanced painting
+While it’s plugged in, you have control over all the settings as you would with any other camera. Ensure your matrix is correct, the gamma table is set right, and apply any other settings you typically use for CCU cameras. Essentially, you’re painting the RF camera just like a normal camera.
+
+#### Save your settings
+Once your settings are applied, save them as a scene file. Scene files are presets that you can recall at any time. To create one, press the STORE button until it flashes, then press the SCENE FILE button corresponding to the number where you want to save your settings. Once saved, the STORE button will stop flashing. Be careful not to overwrite a scene file unintentionally. To recall a scene file, press the corresponding SCENE FILE button, ensuring the STORE button isn’t flashing. At this point, the operator can un-stab from the cable and reconnect the RF transmitter, freeing up the cable for the assigned CCU camera. The operator will then apply the saved scene file to their camera. On Sony FB80s, this can be done by accessing the deep menu via the jog wheel and viewfinder selection switch, then navigating to page 19 in the paint menu where scene files are located.
+
+#### Final adjustments
+Now, focus on balancing and painting all the other cameras you control. This will take some time, so be thorough. If the camera operators are cleared, ask them to leave a wide shot of the stage or field. Once all CCU cameras are matched, shift your attention back to the RF camera. Check overall saturation, hue shift in dominant colors like blue and red, and image contrast. Use the vectorscope to compare the color spread with other cameras. Quickly switch between cameras to check for consistency in specific colors, like blue. If needed, ask the RF operator to adjust settings in the paint menu, which mirrors what you see on your RCP.
+
+### Other tools for matching cameras
+#### Multi matrix
+In a sports setting, it can sometimes be challenging to match the jersey colors between all the cameras, especially with RF cameras. This is where the multi-matrix function on the RCP can be incredibly helpful. The multi-matrix allows you to make fine adjustments to specific colors, ensuring that the reds in one camera match the reds in another, and so on. By adjusting the hue and saturation for individual colors, you can achieve a much closer match between your RF and CCU cameras. This is particularly useful for ensuring that team jerseys look consistent across all your camera feeds, providing a seamless viewing experience for the audience.
+
+#### Green machine
+Another powerful tool for matching cameras is the Green Machine. This software is incredibly useful for aligning different types of cameras like Marshalls, PTZs, and RF cameras. The Green Machine allows for color correction and balancing, ensuring that even cameras with different sensors and color science can be matched to look consistent. By using the Green Machine, you can make adjustments using lift, gamma and gain wheels, making them blend seamlessly with your CCU cameras. This tool is especially helpful in complex setups where you have a mix of camera types and need them all to deliver a uniform image quality. It’s worth a note that Green Machine will “paint” onto the video source it receives. That means the source it receives needs to be close. If you are trying to match a marshall, try to get the camera’s white balance close to a match in camera, before trying to correct it with green machine. It’s also worth noting that if you are trying to match RF cameras, verify with an engineer that Green Machine has been zero’ed out for that camera. You don’t want to paint a camera that has other effects applied on it.
+
+### Conclusion
+And that concludes our shading series. Remember, these tools are just that—tools. There’s no absolute right or wrong way to shade, and different situations might call for different approaches. Don’t hesitate to revisit these steps as you continue to refine your skills. Thanks for following along, and happy shading!
+
+---
+## Videos
+### Part 1
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/REBErTLHacU?si=OOKY_VZ80aVH_22V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
