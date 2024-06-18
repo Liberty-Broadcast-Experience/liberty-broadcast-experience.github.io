@@ -3,11 +3,13 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	output: 'static',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Training Portal',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				instagram: 'https://instagram.com/libertyu_production',
+				email: 'mailto:campusproduction@liberty.edu',
 			},
 			sidebar: [
 				{
