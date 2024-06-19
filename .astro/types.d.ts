@@ -157,6 +157,20 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"portal/audio.md": {
+	id: "portal/audio.md";
+  slug: "portal/audio";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"portal/general.md": {
+	id: "portal/general.md";
+  slug: "portal/general";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "portal/general/intercom-etiquette.mdx": {
 	id: "portal/general/intercom-etiquette.mdx";
   slug: "portal/general/intercom-etiquette";
@@ -164,6 +178,27 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"portal/lighting.md": {
+	id: "portal/lighting.md";
+  slug: "portal/lighting";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"portal/stage.md": {
+	id: "portal/stage.md";
+  slug: "portal/stage";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"portal/video.md": {
+	id: "portal/video.md";
+  slug: "portal/video";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "portal/video/shading-training.mdx": {
 	id: "portal/video/shading-training.mdx";
   slug: "portal/video/shading-training";
