@@ -10,17 +10,21 @@ hero:
     - text: Enter the portal
       link: /portal
       icon: right-arrow
-      variant: secondary
+      variant: primary
+    - text: Request an article
+      link: http://example.com
+      icon: external
+      variant: minimal
 ---
 
 import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-## Know what you want?
+### Know what you want?
 Use the buttons below to jump to a specific area.
 
 <CardGrid>
-<LinkCard title="Audio" href="/guides/authoring-content/"/>
-<LinkCard title="Video" href="/guides/authoring-content/"/>
-<LinkCard title="Lighting" href="/guides/authoring-content/"/>
-<LinkCard title="Stage" href="/guides/authoring-content/"/>
+<LinkCard title="Audio" href="/portal/audio/"/>
+<LinkCard title="Video" href="/portal/video/"/>
+<LinkCard title="Lighting" href="/portal/lighting/"/>
+<LinkCard title="Stage" href="/portal/stage/"/>
 </CardGrid>
