@@ -8,6 +8,11 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Training Portal',
+      logo: {
+        light: './src/assets/light-logo.png',
+        dark: './src/assets/dark-logo.png',
+        replacesTitle: true,
+      },
       head: [
         // Add a custom meta tag to define the author of all pages.
         {
@@ -15,6 +20,13 @@ export default defineConfig({
           attrs: {
             name: 'og:image',
             content: 'https://raw.githubusercontent.com/Liberty-Broadcast-Experience/img/main/training%20portal%20share.jpg',
+          },
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'og:title',
+            content: 'LBX Training Portal',
           },
         },
       ],
@@ -29,6 +41,7 @@ export default defineConfig({
           // Each item here is one entry in the navigation menu.
           autogenerate: {
             directory: 'portal/video/',
+            collapsed: true,
           },
         },
         {

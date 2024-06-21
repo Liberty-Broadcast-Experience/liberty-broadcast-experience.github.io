@@ -199,9 +199,93 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"portal/video/shading-training.mdx": {
-	id: "portal/video/shading-training.mdx";
-  slug: "portal/video/shading-training";
+"portal/video/Camera/Camera Tours/bigbuild.mdx": {
+	id: "portal/video/Camera/Camera Tours/bigbuild.mdx";
+  slug: "portal/video/camera/camera-tours/bigbuild";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/video/Camera/Camera Tours/handheld.mdx": {
+	id: "portal/video/Camera/Camera Tours/handheld.mdx";
+  slug: "portal/video/camera/camera-tours/handheld";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/video/Camera/Camera Tours/menu.mdx": {
+	id: "portal/video/Camera/Camera Tours/menu.mdx";
+  slug: "portal/video/camera/camera-tours/menu";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/video/Camera/Camera Tours/smallbuild.mdx": {
+	id: "portal/video/Camera/Camera Tours/smallbuild.mdx";
+  slug: "portal/video/camera/camera-tours/smallbuild";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/video/Camera/The Next Level/becoming-better.mdx": {
+	id: "portal/video/Camera/The Next Level/becoming-better.mdx";
+  slug: "portal/video/camera/the-next-level/becoming-better";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/video/Camera/The Next Level/centerline.mdx": {
+	id: "portal/video/Camera/The Next Level/centerline.mdx";
+  slug: "portal/video/camera/the-next-level/centerline";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/video/Camera/The Next Level/dolly-steadicam.mdx": {
+	id: "portal/video/Camera/The Next Level/dolly-steadicam.mdx";
+  slug: "portal/video/camera/the-next-level/dolly-steadicam";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/video/Camera/The Next Level/handheld.mdx": {
+	id: "portal/video/Camera/The Next Level/handheld.mdx";
+  slug: "portal/video/camera/the-next-level/handheld";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/video/Camera/The Next Level/jib.mdx": {
+	id: "portal/video/Camera/The Next Level/jib.mdx";
+  slug: "portal/video/camera/the-next-level/jib";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/video/Camera/The Next Level/secondary.mdx": {
+	id: "portal/video/Camera/The Next Level/secondary.mdx";
+  slug: "portal/video/camera/the-next-level/secondary";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/video/Camera/introduction.mdx": {
+	id: "portal/video/Camera/introduction.mdx";
+  slug: "portal/video/camera/introduction";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/video/Control Room/transmission-policy.mdx": {
+	id: "portal/video/Control Room/transmission-policy.mdx";
+  slug: "portal/video/control-room/transmission-policy";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/video/Shading/shading-training.mdx": {
+	id: "portal/video/Shading/shading-training.mdx";
+  slug: "portal/video/shading/shading-training";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
