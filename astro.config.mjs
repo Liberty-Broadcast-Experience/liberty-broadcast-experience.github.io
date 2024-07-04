@@ -71,6 +71,14 @@ export default defineConfig({
             directory: 'portal/general/',
           },
         },
+        {
+          label: 'Sports',
+          // Each item here is one entry in the navigation menu.
+          autogenerate: {
+            directory: 'portal/sports/',
+            collapsed: true,
+          },
+        },
       ],
     }),
     tailwind({

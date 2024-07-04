@@ -185,6 +185,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"portal/sports/camera-assignments.mdx": {
+	id: "portal/sports/camera-assignments.mdx";
+  slug: "portal/sports/camera-assignments";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
 "portal/stage.md": {
 	id: "portal/stage.md";
   slug: "portal/stage";
