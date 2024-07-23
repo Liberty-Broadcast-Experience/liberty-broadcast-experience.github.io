@@ -185,9 +185,23 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"portal/sports/camera-assignments.mdx": {
-	id: "portal/sports/camera-assignments.mdx";
-  slug: "portal/sports/camera-assignments";
+"portal/sports/diamond-sports.mdx": {
+	id: "portal/sports/diamond-sports.mdx";
+  slug: "portal/sports/diamond-sports";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/sports/lacrosse.mdx": {
+	id: "portal/sports/lacrosse.mdx";
+  slug: "portal/sports/lacrosse";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/sports/soccer.mdx": {
+	id: "portal/sports/soccer.mdx";
+  slug: "portal/sports/soccer";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
