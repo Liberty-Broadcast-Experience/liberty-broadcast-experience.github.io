@@ -213,9 +213,51 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"portal/sports/basketball-imag.mdx": {
+	id: "portal/sports/basketball-imag.mdx";
+  slug: "portal/sports/basketball-imag";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/sports/basketball.mdx": {
+	id: "portal/sports/basketball.mdx";
+  slug: "portal/sports/basketball";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
 "portal/sports/diamond-sports.mdx": {
 	id: "portal/sports/diamond-sports.mdx";
   slug: "portal/sports/diamond-sports";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/sports/field-hockey.mdx": {
+	id: "portal/sports/field-hockey.mdx";
+  slug: "portal/sports/field-hockey";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/sports/football-imag.mdx": {
+	id: "portal/sports/football-imag.mdx";
+  slug: "portal/sports/football-imag";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/sports/football.mdx": {
+	id: "portal/sports/football.mdx";
+  slug: "portal/sports/football";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/sports/hockey.mdx": {
+	id: "portal/sports/hockey.mdx";
+  slug: "portal/sports/hockey";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
@@ -230,6 +272,20 @@ declare module 'astro:content' {
 "portal/sports/soccer.mdx": {
 	id: "portal/sports/soccer.mdx";
   slug: "portal/sports/soccer";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/sports/swimming.mdx": {
+	id: "portal/sports/swimming.mdx";
+  slug: "portal/sports/swimming";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/sports/track-and-field.mdx": {
+	id: "portal/sports/track-and-field.mdx";
+  slug: "portal/sports/track-and-field";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
