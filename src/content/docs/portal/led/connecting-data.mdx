@@ -1,0 +1,31 @@
+---
+title: Connecting Data
+description: A reference page in my new Starlight docs site.
+sidebar:
+  # Set a custom order for the link (lower numbers are displayed higher up)
+  order: 3
+---
+
+import { Badge } from '@astrojs/starlight/components';
+import { Aside } from '@astrojs/starlight/components';
+import { Steps } from '@astrojs/starlight/components';
+
+---
+When it's time to supply data to your LED wall, the basic format looks very similar to how power was connected:
+
+<Steps>
+1. Connect the data cable from the first data port on the back of your processor to either one of the data ports on your first LED panel.
+2. Connect the next data cable from the top data port on the first panel to the bottom data port of the second panel.
+3. Continue this pattern until all panels have been connected.
+</Steps>
+
+Again, it's standard to wire your wall in a snaking pattern, starting in any corner you choose. This can vary for different setups.
+
+:::note[Data limitations]
+Again, similar to power, there is a limit to the number of panels that can be connected off of one main data run. When you reach that limit, you'll need to connect another cable from your main power source to the next panel in the wall and continue the pattern from there.
+:::
+
+## Video
+Watch the video below for some more in-depth information.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KZflmSU_27M?si=eM1qdmNOUxIFc87m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

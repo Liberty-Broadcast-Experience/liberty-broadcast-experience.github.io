@@ -178,6 +178,27 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"portal/led/connecting-data.mdx": {
+	id: "portal/led/connecting-data.mdx";
+  slug: "portal/led/connecting-data";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/led/connecting-power.mdx": {
+	id: "portal/led/connecting-power.mdx";
+  slug: "portal/led/connecting-power";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/led/wall-setup.mdx": {
+	id: "portal/led/wall-setup.mdx";
+  slug: "portal/led/wall-setup";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
 "portal/lighting.md": {
 	id: "portal/lighting.md";
   slug: "portal/lighting";

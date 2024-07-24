@@ -58,6 +58,14 @@ export default defineConfig({
           },
         },
         {
+          label: 'LED',
+          // Each item here is one entry in the navigation menu.
+          autogenerate: {
+            directory: 'portal/led/',
+            collapsed: true,
+          },
+        },
+        {
           label: 'General',
           // Each item here is one entry in the navigation menu.
           autogenerate: {

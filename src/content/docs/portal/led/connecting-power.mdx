@@ -1,0 +1,33 @@
+---
+title: Connecting Power
+description: A reference page in my new Starlight docs site.
+sidebar:
+  # Set a custom order for the link (lower numbers are displayed higher up)
+  order: 2
+---
+
+import { Badge } from '@astrojs/starlight/components';
+import { Aside } from '@astrojs/starlight/components';
+import { Steps } from '@astrojs/starlight/components';
+
+---
+When it's time to supply power to your LED wall, the basic format looks like this:
+
+<Steps>
+1. Connect a cable from your main power source to the power **in** of your **first** panel.
+2. Connect the next cable from the power **out** of the **first** panel to the power **in** of the **second** panel.
+3. Continue this pattern until all panels have been connected.
+</Steps>
+
+It's standard to wire your wall in a snaking pattern, starting in any corner you choose. This can vary for different setups.
+
+:::note[Power limitations]
+There is a limit to the number of panels that can be connected off of one main power run. When you reach that limit, you'll need to connect another cable from your main power source to the next panel in the wall and continue the pattern from there.
+:::
+
+Every brand and model of LED video panel is a little different, so you'll need to talk to your manufacturer or use a helpful tool like the SquareV project visualizer to figure out what that maximum number is.
+
+## Video
+Watch the video below for some more in-depth information.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/p-5BK_rZ2IM?si=3PF-6tlE-WCwEKmh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
