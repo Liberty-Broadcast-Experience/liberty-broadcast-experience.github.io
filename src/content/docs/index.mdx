@@ -17,12 +17,27 @@ hero:
 
 import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-### Know what you want?
-Use the buttons below to jump to a specific area.
+## Topics such as...
 
-<CardGrid>
-<LinkCard title="Audio" href="/portal/audio/"/>
-<LinkCard title="Video" href="/portal/video/"/>
-<LinkCard title="Lighting" href="/portal/lighting/"/>
-<LinkCard title="Stage" href="/portal/stage/"/>
+<CardGrid stagger>
+  <Card title="Camera assignments" icon="rocket">
+    Reasoning and theory behind camera assignments.
+  </Card>
+  <Card title="LED" icon="sun">
+    Assembling a wall, as well as power and data basics.
+  </Card>
+  <Card title="The Next Level" icon="star">
+    Our flagship camera training course that teaches you everything you need to know about running a camera.
+  </Card>
+  <Card title="Audio" icon="puzzle">
+    Best practices for setting up a showfile.
+  </Card>
+  <Card title="Producing & Directing" icon="document">
+    Exclusive sessions hosted by industry experts on best practices for putting your shows on the air.
+  </Card>
+  <Card title="Standard operating procedures" icon="approve-check">
+    From intercom etiquette to transmission, and everywhere in between.
+  </Card>
 </CardGrid>
+
+## And so much more.
