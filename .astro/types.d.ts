@@ -178,6 +178,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"portal/led.md": {
+	id: "portal/led.md";
+  slug: "portal/led";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "portal/led/connecting-data.mdx": {
 	id: "portal/led/connecting-data.mdx";
   slug: "portal/led/connecting-data";
