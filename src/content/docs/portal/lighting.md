@@ -1,5 +1,5 @@
 ---
 title: Lighting
-description: A reference page in my new Starlight docs site.
+description: Welcome to the LBX Training Portal.
 ---
 To navigate, use the navigation menu to select an article.
