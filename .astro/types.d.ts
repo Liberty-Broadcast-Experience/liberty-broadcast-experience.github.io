@@ -164,6 +164,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"portal/audio/a2-fundamentals.mdx": {
+	id: "portal/audio/a2-fundamentals.mdx";
+  slug: "portal/audio/a2-fundamentals";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
 "portal/general.md": {
 	id: "portal/general.md";
   slug: "portal/general";
