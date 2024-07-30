@@ -42,7 +42,6 @@ export default defineConfig({
           // Each item here is one entry in the navigation menu.
           autogenerate: {
             directory: 'portal/video/',
-            collapsed: true,
           },
         },
         {
@@ -63,7 +62,6 @@ export default defineConfig({
           // Each item here is one entry in the navigation menu.
           autogenerate: {
             directory: 'portal/led/',
-            collapsed: true,
           },
         },
         {
@@ -78,7 +76,6 @@ export default defineConfig({
           // Each item here is one entry in the navigation menu.
           autogenerate: {
             directory: 'portal/sports/',
-            collapsed: true,
           },
         },
       ],

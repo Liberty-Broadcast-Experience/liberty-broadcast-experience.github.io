@@ -1,43 +1,15 @@
 ---
-title: Welcome.
-description: This is a place where you can come to get helpful training information including videos, documents, tutorials, and more.
-template: splash
-hero:
-  tagline: This is a place where you can come to get helpful training information including videos, documents, tutorials, and more.
-  actions:
-    - text: Enter the portal
-      link: /portal
-      icon: right-arrow
-      variant: primary
-    - text: Request an article
-      link: http://example.com
-      icon: external
-      variant: minimal
----
+title: Welcome
+description: The LBX Training Portal is a central location where you can come to get helpful training information including videos, documents, tutorials, and more.
 
+hero:
+  tagline: The LBX Training Portal is a central location where you can access helpful training information including videos, documents, tutorials, and more.
+---
 import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-## Featured topics
-
-<CardGrid stagger>
-  <Card title="Camera assignments" icon="rocket">
-    Reasoning and theory behind camera assignments.
-  </Card>
-  <Card title="LED" icon="sun">
-    Assembling a wall, as well as power and data basics.
-  </Card>
-  <Card title="The Next Level" icon="star">
-    Our flagship camera training course that teaches you everything you need to know about running a camera.
-  </Card>
-  <Card title="Audio" icon="puzzle">
-    Best practices for setting up a showfile.
-  </Card>
-  <Card title="Producing & Directing" icon="document">
-    Exclusive sessions hosted by industry experts on best practices for putting your shows on the air.
-  </Card>
-  <Card title="Standard operating procedures" icon="approve-check">
-    From intercom etiquette to transmission, and everywhere in between.
-  </Card>
+### Featured content
+Check out the newest additions to the training portal.
+<CardGrid>
+  <LinkCard title="The Next Level" description="Our flagship camera training series." href="/portal/video/camera/introduction/" />
+  <LinkCard title="Intercom Etiquette" description="Everything you need to know about intercom and how we use it." href="/portal/general/intercom-etiquette/" />
 </CardGrid>
-
-## And so much more.
