@@ -235,16 +235,37 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"portal/sports/basketball-imag.mdx": {
-	id: "portal/sports/basketball-imag.mdx";
-  slug: "portal/sports/basketball-imag";
+"portal/sports/Basketball/broadcast.mdx": {
+	id: "portal/sports/Basketball/broadcast.mdx";
+  slug: "portal/sports/basketball/broadcast";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
-"portal/sports/basketball.mdx": {
-	id: "portal/sports/basketball.mdx";
-  slug: "portal/sports/basketball";
+"portal/sports/Basketball/imag.mdx": {
+	id: "portal/sports/Basketball/imag.mdx";
+  slug: "portal/sports/basketball/imag";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/sports/Basketball/scorebug.mdx": {
+	id: "portal/sports/Basketball/scorebug.mdx";
+  slug: "portal/sports/basketball/scorebug";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/sports/basketball/basketball-imag.mdx": {
+	id: "portal/sports/basketball/basketball-imag.mdx";
+  slug: "portal/sports/basketball/basketball-imag";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/sports/basketball/basketball-scorebug.mdx": {
+	id: "portal/sports/basketball/basketball-scorebug.mdx";
+  slug: "portal/sports/basketball/basketball-scorebug";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
