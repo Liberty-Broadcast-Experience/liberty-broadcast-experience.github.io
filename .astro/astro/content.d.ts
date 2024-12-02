@@ -403,6 +403,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"portal/video/Camera/The Next Level/high-wide.mdx": {
+	id: "portal/video/Camera/The Next Level/high-wide.mdx";
+  slug: "portal/video/camera/the-next-level/high-wide";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
 "portal/video/Camera/The Next Level/jib.mdx": {
 	id: "portal/video/Camera/The Next Level/jib.mdx";
   slug: "portal/video/camera/the-next-level/jib";
