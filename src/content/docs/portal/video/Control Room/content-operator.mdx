@@ -1,0 +1,285 @@
+---
+title: Content Operator
+description: Everything you need to know about running a content machine for a CP event.
+tableOfContents:
+  minHeadingLevel: 1
+  maxHeadingLevel: 4
+---
+
+import { Badge } from '@astrojs/starlight/components';
+import { Aside } from '@astrojs/starlight/components';
+import { Steps } from '@astrojs/starlight/components';
+import { FileTree } from '@astrojs/starlight/components';
+
+---
+## Introduction
+Here at Campus Production (CP), we utilize two content machines for Convocation and Campus Community. We refer to them as “Mac 1” and “Mac 2”.
+
+**Mac 1** is responsible for all graphics, lower thirds, and videos.
+
+**Mac 2** is responsible for lyrics and clocks, as well as a backup for Mac 1.
+
+Your role as a content operator is extremely important, as it impacts several key parts of the show. It is crucial to be thorough, detail-oriented, and precise.
+
+## Expectations for your role
+Before show, go through this list and ask yourself if you’ve done these things.
+
+### Mac 1
+1.	Have I imported all content?
+2.	Have I tested playback of all videos?
+3.	When is the last time I checked Dropbox? Does the content I have match what is in Dropbox?
+
+### Mac 2
+1.	Have I imported all lyrics?
+2.	Have I verified that lyrics are error free?
+3.	Have I imported all content?
+4.	When is the last time I checked Dropbox? Does the content I have match what is in Dropbox?
+---
+## Operation Guides
+
+### Powering on your machine
+<Steps>
+1. Turn on your monitors. The power buttons are on the lower right hand side of the bezels.
+2. Press Shift+Shift+O, then navigate to your machine by using the arrow keys. It will either be MAC A 01 or MAC A 02.
+3. Press Enter.
+</Steps>
+
+<Aside type="note" title="Note">
+  Sometimes, the computer will be logged out. If that is the case, locate an engineer-in-charge (EIC) to have them log in for you.
+</Aside>
+
+### Importing content
+
+#### Locate run of show
+<Steps>
+1.	Open Google Chrome. Planning Center and both Dropbox folders should open. (If Planning Center doesn’t open, click “Planning Center” bookmark)
+2.	Navigate to the “Plans” section in the header
+3.	You will then be able to find your run of show.
+</Steps>
+
+![Bookmarks](https://raw.githubusercontent.com/Liberty-Broadcast-Experience/img/refs/heads/main/19%20lbxtp-contentoperator-bookmarks.png)
+
+#### Locate content folders
+<Steps>
+1.	Open Google Chrome. Planning Center and both Dropbox folders should open. (If Dropbox doesn’t open, click the bookmark for the event you’re working. It will either be Convocation or Campus Community)
+2.	Navigate to the folder for your event
+3.	Download “xSpeaker Slides” folder, and all content in the root folder. Do not download LED Backgrounds.
+</Steps>
+
+![Dropbox](https://raw.githubusercontent.com/Liberty-Broadcast-Experience/img/refs/heads/main/18%20lbxtp-contentoperator-what%20to%20download.png)
+
+#### Download NALU
+<Aside type="note" title="Note">
+  This only applies to Convocation. New at LU (NALU) does not play at Campus Community.
+</Aside>
+
+<Steps>
+1.	Open Google Chrome
+2.	Click the bookmark for NALU
+3.	Download the most current version of NALU (highest numbered)
+</Steps>
+
+### Organizing content
+
+#### Smart Playlists
+We use Smart Playlists to get content into ProPresenter.
+A Smart Playlist is a special type of Media Playlist that looks at a folder on your computer and automatically adds and removes media based on the folder on your computer. You cannot manually add or remove Smart Playlist media directly inside of ProPresenter, instead that would have to be done via the operating system on the computer; open the operating system and add or remove your media from that folder and ProPresenter will instantly update to reflect the change.
+
+Here's what to do to load all content in correctly:
+<Steps>
+1.	Download all content from Dropbox
+2.	Move your content into the appropriate folders on macOS.
+</Steps>
+
+<Aside type="note" title="Note">
+  Ensure that you are not putting folders into Smart Playlists. For example, do not drag the "xSpeaker Slides" folder into the Convo L3 folder. Instead, drag the slides from the "xSpeaker Slides" folder in.
+</Aside>
+
+Below is an example of what you should see when you navigate to the Documents folder on the Mac that you're using. This example is for Convocation. For Campus Community, follow the same process in the folder for that event.
+
+<FileTree>
+- Convocation
+  - Convo_Bails bail slides go here
+    - ConvoBail.png
+  - Convo_FS full-screen slides go here
+    - CommunityGroups.jpg
+  - Convo_L3 lower-thirds (LR3) go here
+    - SpeakerSlide1.png
+    - SpeakerSlide2.png
+    - LR3_JohnAppleseed.mov
+  - Convo_Preroll preroll content goes here
+    - OpenSeating.jpg
+    - Coffeehouse.png
+  - Convo_Videos videos go here
+    - IntroVideo.mov
+    - NALU_382.mov
+  - Lead_L3 leadership lower-thirds go here
+    - LR3_DondiCostin.mov
+    - LR3_JonathanFalwell.mov
+  - Locators locators go here
+    - VinesCenter.mov
+    - Arena.mov
+    - TRBC.mov
+
+</FileTree>
+
+You should now see content populating in your media bin. If you Do not see the media bin, click the cloud button to pull it up, or press Ctrl+V. 
+
+![Media Bin](https://raw.githubusercontent.com/Liberty-Broadcast-Experience/img/refs/heads/main/6%20lbxtp-contentoperator-media%20bin%20how.png)
+
+Next, it is crucial to ensure that all videos are set to stop, and not loop.
+<Steps>
+1.	Right click video
+2.	Select “Playback Behavior”
+3.	Select “Stop”
+4.	Repeat for all videos
+</Steps>
+
+![Media Playback Behavior](https://raw.githubusercontent.com/Liberty-Broadcast-Experience/img/refs/heads/main/20%20lbxtp-contentoperator-loop.png)
+
+Finally, organize the content to sort by file name in ProPresenter. (Right click, clean up by, name)
+
+### Verifying Video Playback
+We verify all video playback to ensure that videos are the correct length, audio is correctly split, lip sync is good, and that video looks good.
+
+When it’s time to verify videos, either the Broadcast A1 or Director will communicate with you that it is time to do so. Here’s what you need to do:
+<Steps>
+1.	Cue video that is requested
+2.	Play video when requested
+</Steps>
+
+Most videos will have two channels of audio. When verifying playback of NALU, skip ahead to a part of the video where the hosts are speaking on camera. This saves us time.
+
+#### Adjusting video volume
+Occasionally, videos will get sent to us that are too hot (loud) or too soft (quiet). We can lower the volume in ProPresenter’s “Inspector” tool. Here’s how to do it:
+<Steps>
+1.	Right click on the video that you need to change
+2.	Select “Inspector”
+3.	Navigate to the audio section
+4.	Raise or lower both Channel 1 and 2 by the same amount
+    - When adjusting volume, adjust in 3dB increments unless told otherwise
+</Steps>
+
+![Lowering Video Volume](https://raw.githubusercontent.com/Liberty-Broadcast-Experience/img/refs/heads/main/1%20lbxtp-contentoperator-audio%20levels.png)
+
+### Verifying Content Version
+Content for show can change on a dime. It is imperative that both machines have the most current content. Here’s the recommended way to check:
+<Steps>
+1.	Navigate to Dropbox folder for the show and refresh the page
+2.	Navigate to Media Bin in ProPresenter
+3.	Verify all content is on your machine
+4.	Compare your content in ProPresenter with the content in Dropbox to make sure they match
+5.	After the production manager has confirmed that content is final, redownload all content.
+</Steps>
+
+<Aside type="caution" title="Important note">
+  It is crucial that all content is redownloaded when it is finalized. Please confirm with your director when you have done so.
+</Aside>
+
+### Importing Lyrics
+<Steps>
+1.	Using the instructions above, locate the run of show via Planning Center. You’ll find the songs needed here.
+2.	Once songs are identified, you’ll need to import them into the playlist for the current event.
+    - Most songs are in our Campus Production song library, but occasionally we will play a new song. Refer to [Importing a new song](http://liberty-broadcast-experience.github.io/portal/video/control-room/content-operator/#importing-a-new-song) to manually import a song.
+3.	Once all songs are imported, perform the following checks for all songs
+    - Ensure lyric theme is LU 2024 ALPHA
+    - Ensure all lyrics have proper spelling and grammar
+    - Ensure arrangement of lyrics is correct (Planning Center may have this)
+</Steps>
+
+![Correct Lyric Theme](https://raw.githubusercontent.com/Liberty-Broadcast-Experience/img/refs/heads/main/3%20lbxtp-contentoperator-correct%20theme.png)
+
+#### Rehearsing with the band
+It is key that you are always following lyrics while the band is rehearsing. This allows you, the music director (MD), and the band to all confirm lyric arrangement is correct.
+
+#### Importing a new song
+Occasionally, the collective plays songs that we do not have in our ProPresenter library. This means that you’ll have to manually import the song.
+<Steps>
+1.	First, locate lyrics to the song.
+    - Planning Center is a good first place to look. For more obscure songs, Google will be your friend. Just search the song name and add lyrics to the end.
+2.	Select all lyrics, and copy to your clipboard
+3.	File > Import > Text from Clipboard
+4.	Select Edit
+5.	Change title to title of song
+6.	Go through and add slide breaks (Alt+Enter)
+7.	When complete, hit import button
+</Steps>
+
+### Countdowns
+Countdowns in ProPresenter can be slightly frustrating to set up.
+<Steps>
+1.	Select the “Timers” view
+2.	Change duration of the “Confidence Countdown” timer (format is hh:mm:ss, so if you needed 30 minutes, you’d enter 00:30:00)
+3.	Hit Enter
+4.	Reset timer to lock in changes
+5.	Start timer
+</Steps>
+
+### Tally
+Tally is what tells you if you’re live. To see if you’re currently live, look at this area of the Multiview wall:
+
+![Monitor Wall Showing Tally](https://raw.githubusercontent.com/Liberty-Broadcast-Experience/img/refs/heads/main/21%20lbxtp-contentoperator-tally.png)
+
+If you’re live, the text will be red. If the text isn’t red, you’re clear! When in doubt, ask the director if you’re clear!
+
+### Comms
+[Click here](http://liberty-broadcast-experience.github.io/portal/general/intercom-etiquette/) to read our guide to intercom.
+
+| Channel  | Description |
+| -------- | ------- |
+| GLUV  |  Primary communication channel for graphics and director    |
+| VOX | Vocal mics. Useful for if we do not have program audio.     |
+| CLICK    | Click track    |
+| TB    | Music director talkback    |
+
+### Stage Display
+Your stage display is what is displayed on all of the TVs by the stage. It’s what the band and talent reference, so it’s important that it’s correct. To change the stage display, reference the image.
+
+![Stage Display](https://raw.githubusercontent.com/Liberty-Broadcast-Experience/img/refs/heads/main/14%20lbxtp-contentoperator-stage%20display.png)
+
+### Cueing Videos
+Cueing a video allows it to be ready to played quickly. To cue a video, hold down Alt and then click on the video you want to cue.
+
+### Preroll
+Preroll refers to the slides that we put on IMAG as people are walking in. Here is how to create a preroll loop of slides:
+<Steps>
+1.	Ensure all desired content is in the Convo Preroll Smart Playlist
+2.	Drag content from Media Bin to Convo Preroll Playlist
+3.	Set to auto advance every 10 seconds
+</Steps>
+
+![Preroll](https://raw.githubusercontent.com/Liberty-Broadcast-Experience/img/refs/heads/main/5%20lbxtp-contentoperator-loop.png)
+
+### Terminology
+Make sure you’re comfortable and understand the following commands, as you’ll need to listen to these for show:
+
+**Director to Technical Director (TD): Inserting your Mac (Insert, Lose)**
+
+- "Standby to insert Mac 1” “Insert”
+    - This is making your Mac source live
+- “Standby to lose Mac 1” “Lose”
+    - This is doing the opposite
+- “Standby to insert lyrics” “Insert”
+    - This is making Mac 2 (lyrics) live
+
+
+**Director to Content: Cueing content (Cue)**
+- “Cue intro video on Mac 1”
+- “Cue Dondi Costin lower third on Mac 1”
+
+
+**Director to Content: Playing content**
+- “Standing by ____ video” “Roll in 3, 2, 1, ROLL”
+    - Used for videos
+- “Animate”
+    - Typically used for lower thirds
+- “Push”
+    - You’ll go to the next slide when this is said
+- “Put up the 24-Hour Prayer slide on Mac 1”
+    - You’d immediately display this slide once you find it
+
+
+**Director to Content: Letting you know your machine is no longer live (Clear)**
+- “Mac 1 is clear”
+- “Mac 2 is clear”
+- “Lyrics are out”

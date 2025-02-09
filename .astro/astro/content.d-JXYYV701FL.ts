@@ -403,6 +403,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"portal/video/Control Room/mac-1-and-2.mdx": {
+	id: "portal/video/Control Room/mac-1-and-2.mdx";
+  slug: "portal/video/control-room/mac-1-and-2";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
 "portal/video/Control Room/transmission-policy.mdx": {
 	id: "portal/video/Control Room/transmission-policy.mdx";
   slug: "portal/video/control-room/transmission-policy";

@@ -4,12 +4,26 @@ description: The LBX Training Portal is a central location where you can come to
 
 hero:
   tagline: The LBX Training Portal is a central location where you can access helpful training information including videos, documents, tutorials, and more.
----
-import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-### Featured content
+  actions:
+    - text: Request content
+      link: https://forms.office.com/r/HQNhgGHcPB
+      icon: external
+      variant: secondary
+---
+import { Card, CardGrid, LinkCard, LinkButton } from '@astrojs/starlight/components';
+
+import { Icon } from '@astrojs/starlight/components';
+
+### Featured content 
 Check out the newest additions to the training portal.
 <CardGrid>
   <LinkCard title="The Next Level" description="Our flagship camera training series." href="/portal/video/camera/introduction/" />
   <LinkCard title="Intercom Etiquette" description="Everything you need to know about intercom and how we use it." href="/portal/general/intercom-etiquette/" />
+  <LinkCard title="Content Operator" description="Running content for show: learn all about it here." href="/portal/video/control-room/content-operator/" />
+  <LinkCard title="High Wide" description="While it may seem unimportant, the high wide camera is valuable to the show." href="/portal/video/camera/the-next-level/high-wide" />
 </CardGrid>
+
+<br>
+---
+</br>
