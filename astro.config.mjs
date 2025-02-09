@@ -58,6 +58,13 @@ export default defineConfig({
           },
         },
         {
+          label: 'Stage',
+          // Each item here is one entry in the navigation menu.
+          autogenerate: {
+            directory: 'portal/stage/',
+          },
+        },
+        {
           label: 'LED',
           // Each item here is one entry in the navigation menu.
           autogenerate: {
