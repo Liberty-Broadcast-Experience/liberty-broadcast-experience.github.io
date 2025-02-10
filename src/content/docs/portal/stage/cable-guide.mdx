@@ -1,8 +1,16 @@
 ---
 title: Cable Guide
 description: Production requires a lot of cables to power equipment and transmit signal between equipment. This is an overview of each of the cables we use to help you learn what they are.
-draft: true
 ---
+
+import { Badge } from '@astrojs/starlight/components';
+import { Aside } from '@astrojs/starlight/components';
+import { Steps } from '@astrojs/starlight/components';
+import { FileTree } from '@astrojs/starlight/components';
+
+---
+Production requires a lot of cables to power equipment and transmit signal between equipment. This is an overview of each of the cables we use to help you learn what they are.
+
 ## Cable Lengths
 We mark the length of our cables to make it easy to grab the right length. Audio and video cables follow the same standard while lighting cables have a few differences. 
 
@@ -29,62 +37,139 @@ There are two main types of cables. The first is signal cables, which carry sign
 Some cables carry signal only one direction while others can send signal both ways.
 
 ### Ethernet (Cat-5e/6)
+*Audio, Video, and Lighting*
+
 Ethernet can transmit a large amount of signal through a single cable, so one cable can do what it would take many other cables to do otherwise. All of our areas use Ethernet cables. These are used for networking our systems together.
 
-Image here (Audio, Video & Lighting)
+![Photo of an ethernet cable.](https://raw.githubusercontent.com/Liberty-Broadcast-Experience/img/refs/heads/main/cable%20guide%20photos/ethernet.png)
 
 ### XLR Cable
+*Audio*
+
+
 XLRs carry audio signal from a source. The female end of the cable plugs in to the source (mic, DI box, etc.) and the male end plugs in to the receiver (console, speaker). XLRs are balanced and can maintain signal quality over a long distance.
 
-Image here (audio)
+![Photo of an XLR cable.](https://raw.githubusercontent.com/Liberty-Broadcast-Experience/img/refs/heads/main/cable%20guide%20photos/xlr.png)
 
 ### 1/4" & 1/8" Cables
+*Audio*
+
+
 1/4” cables carry signal from an instrument to a DI box. Most 1/4” cables are unbalanced so they cannot be long or they lose signal quality.
 
 1/8” cables are primarily used to extend headphone lines or plug in to a computer.
 
-Image here (Audio)
+![Photo of an 1/4" and 1/8" cable.](https://github.com/Liberty-Broadcast-Experience/img/blob/main/cable%20guide%20photos/forth%20and%20eighth%20inch.png?raw=true)
 
 ### W2 Cable/W2 Snake
+*Audio*
+
+
 This cable carries multiple channels of audio usually from a stage box to a patch bay or audio console.
 
-Image here (Audio)
+![Photo of a W2 cable.](https://github.com/Liberty-Broadcast-Experience/img/blob/main/cable%20guide%20photos/w2%20snake%20and%20cable.png?raw=true)
 
 ### NL4 & NL8 Cables
+*Audio*
+
+
 These both carry signal and power cable. NL4s primarily carry audio signal from an amp rack to stage monitors and NL8s primarily carry signal from an amp rack to PA speakers.
 
-Image here (Audio)
+![Photo of NL4 and NL8 cable.](https://github.com/Liberty-Broadcast-Experience/img/blob/main/cable%20guide%20photos/nl4%20and%20nl8.png?raw=true)
 
 ### DMX Cable
+*Lighting*
+
+
 DMX is a lighting cable that carries data from the console to the lights. The female end of the cable goes into a device and the male end carries signal out of the device.
 We primarily use 5 pin DMX but will sometimes use 3 pin DMX (not to be confused with an XLR cable).
 
-Image here (Lighting)
+![Photo of a DMX cable.](https://github.com/Liberty-Broadcast-Experience/img/blob/main/cable%20guide%20photos/dmx.png?raw=true)
 
 ## Power Cables
-There are two voltages we use for power, 120V and 208V. It is important to always know which voltage you are using so you don’t fry equipment!
+There are two voltages we use for power, 120V and 208V.
+
+<Aside type="caution" title="Caution">
+  It is important to always know which voltage you are using so you don’t fry equipment!
+</Aside>
 
 The second main type of cables is power cables. The following are all cables that carry power to our equipment.
     
 ### Edison Cable
+*Audio, Video, and Lighting*
+
+
 A standard electrical connector that carries 120V power. 
 
-Image here (Audio, Video, and Lighting)
+![Photo of an edison cable.](https://github.com/Liberty-Broadcast-Experience/img/blob/main/cable%20guide%20photos/edison.png?raw=true)
 
 ### Powercon & True1 Cables
+*Audio, Video, and Lighting*
+
+
 Powercon is a twist-lock cable. It can be used with 120V or 208V. The blue end is male and white end is female.
 
 True1 is a newer, water resistant version of Powercon and it can connect to itself. It can be used with 120V or 208V. 
 
-Image here (Audio, Video, Lighting)
+![Photo of Powercon and True1 cable.](https://github.com/Liberty-Broadcast-Experience/img/blob/main/cable%20guide%20photos/powercon%20and%20true1.png?raw=true)
 
 ### Socapex (Soca) Cable
+*Audio, Video, and Lighting*
+
+
 Soca carries 6 separate circuits of power. It can be used with 120V or 208V. At the end of a soca run you put a breakout cable/box that has a male soca end and then 6 female ends of another connector
 (i.e. L6-20, powercon, a True1, etc.)
 
-Image here (Audio, Video, & Lighting)
+![Photo of a socapex cable.](https://github.com/Liberty-Broadcast-Experience/img/blob/main/cable%20guide%20photos/socapex.png?raw=true)
 
 ### Twofers & Breakouts
+*Audio, Video, and Lighting*
+
+
 Twofers and breakouts are cable splits that can have any type of connector. A twofer splits one cable to two connectors to power two different devices on the same circuit. A breakout connects to a soca and has 6 different circuits. If the breakout has 6 connectors each has their own circuit, if 12 then they are paired (like a twofer). 
 
-Image here (Audio, Video, and Lighting)
+![Photo of a twofer and breakout.](https://github.com/Liberty-Broadcast-Experience/img/blob/main/cable%20guide%20photos/twofer.png?raw=true)
+
+### Camlock (aka Cams or Feeder)
+*Audio, Video, and Lighting*
+
+
+Cams take power from an electrical disconnect to a power distribution system (PD) or connect PDs together. There are 5 cam cables: green is ground, white is neutral, red, blue, and black are hots.
+
+<Aside type="caution" title="Caution">
+  These carry a very high amperage of power and should always be connected and disconnected while power is off.
+</Aside>
+
+![Photo of a camlock cable.](https://github.com/Liberty-Broadcast-Experience/img/blob/main/cable%20guide%20photos/camlock.png?raw=true)
+
+### Motor Cable
+*Rigging*
+
+
+There are two types of motor cable - single phase or three phase (this refers to the type of power used to run the motors). Single phase motor cable has one connector for power and one for motor control. Three phase motors use a single twist lock cable that carries both power and control.
+
+![Photo of motor cable.](https://github.com/Liberty-Broadcast-Experience/img/blob/main/cable%20guide%20photos/motor.png?raw=true)
+
+### L6-20 Cable
+*Lighting*
+
+
+A twist lock power cable that carries 120V or 208V power, primarily used in lighting.
+
+![Photo of L6-20 cable.](https://github.com/Liberty-Broadcast-Experience/img/blob/main/cable%20guide%20photos/l620.png?raw=true)
+
+### Stagepin Cable
+*Lighting*
+
+
+Primarily carries dimmer power to a conventional lighting fixture. We use this in the School of Music Auditorium.
+
+![Photo of a stagepin cable.](https://github.com/Liberty-Broadcast-Experience/img/blob/main/cable%20guide%20photos/stagepin.png?raw=true)
+
+### L21-30
+*Audio*
+
+
+L21-30 is the power cable we use for powering our audio amp racks, which run off of 208V. They are stored in the PA trunks. 
+
+![Photo of L21-30 cable.](https://github.com/Liberty-Broadcast-Experience/img/blob/main/cable%20guide%20photos/l2130.png?raw=true)
