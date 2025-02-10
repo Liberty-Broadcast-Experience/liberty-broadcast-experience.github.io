@@ -24,6 +24,22 @@ export default defineConfig({
           },
         },
         {
+          tag: 'script',
+          attrs: {
+            src: `https://www.googletagmanager.com/gtag/js?id=G-5LQ11JNNVR`,
+          },
+        },
+        {
+          tag: 'script',
+          content: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-5LQ11JNNVR');
+          `,
+        },
+        {
           tag: 'meta',
           attrs: {
             name: 'og:title',
