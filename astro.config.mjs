@@ -46,6 +46,29 @@ export default defineConfig({
             content: 'LBX Training Portal',
           },
         },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'manifest',
+            href: '/manifest.json',
+          },
+        },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'apple-touch-icon',
+            sizes: '1024x1024',
+            href: '../src/assets/Icons/ios-1024.png',
+          },
+        },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'apple-touch-icon',
+            sizes: '512x512',
+            href: '../src/assets/Icons/ios-512.png',
+          },
+        }
       ],
       customCss: ['./src/styles.css'],
       social: {
