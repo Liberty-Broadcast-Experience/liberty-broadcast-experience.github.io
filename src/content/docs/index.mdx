@@ -1,21 +1,29 @@
 ---
 title: Welcome
+tableOfContents: false
 description: The LBX Training Portal is a central location where you can come to get helpful training information including videos, documents, tutorials, and more.
 
 hero:
   tagline: The LBX Training Portal is a central location where you can access helpful training information including videos, documents, tutorials, and more.
 
   actions:
+    - text: Book show review
+      link: https://outlook.office365.com/book/LBXTraining@libertyuniv.onmicrosoft.com/
+      icon: rocket
+      variant: primary
     - text: Request content
       link: https://forms.office.com/r/HQNhgGHcPB
       icon: external
-      variant: secondary
+      variant: minimal
 ---
-import { Card, CardGrid, LinkCard, LinkButton } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkCard, LinkButton, Tabs, TabItem } from '@astrojs/starlight/components';
 
 import { Icon } from '@astrojs/starlight/components';
 
-### Featured content 
+## Want to review a recent show?
+**Using the "Book show review" button above, now you can!** This is a great time to sit down and review a recent show that you did. We can watch the multiview, or your camera's ISO recording together.
+
+## Featured content 
 Check out the newest additions to the training portal.
 <CardGrid>
   <LinkCard title="Cable Guide" description="An overview of each of the cables we use to help you learn what they are." href="/portal/stage/cable-guide/" />
@@ -25,7 +33,36 @@ Check out the newest additions to the training portal.
 </CardGrid>
 
 <br>
-### Who we are
+## About LBX
+
+
+<Card title="Our Mission">
+  We enhance the Liberty experience by producing both in-venue and broadcast excellence.
+  </Card>
+### Our Teams
+<CardGrid>
+<Card title="Campus Production">
+  Handles all non-sport live production, audio, and visual. You'll most often see us at Convocation or Campus Community.
+</Card>
+<Card title="Sports Production">
+  Providing gameday coverage of 175+ sporting events each season.
+</Card>
+<Card title="Broadcast Engineering">
+  Provides technical support to maintain a level of broadcast excellence.
+</Card>
+<Card title="Flames Central">
+  Weekly syndacated show telling the stories and legacy of Flames athletics.
+</Card>
+<Card title="C.A.D. Video">
+  Develops 1000+ videos a year for academic classrooms.
+</Card>
+<Card title="The Journey">
+  Grammy nominated radio station bringing Virginia the latest in adult contemporary Christian music.
+</Card>
+</CardGrid>
+
+### Want to get a closer look?
+Check out our sizzle video, which explains a little more about what we do.
 <div style="max-width:608px"><div style="position:relative;padding-bottom:66.118421052632%"><iframe id="kmsembed-1_jsi509xz" width="608" height="402" src="https://watch.liberty.edu/embed/secure/iframe/entryId/1_jsi509xz/uiConfId/52537662/st/0" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" referrerPolicy="no-referrer-when-downgrade" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="LBX Sizzle Reel - 2023" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0"></iframe></div></div>
 ---
 </br>
