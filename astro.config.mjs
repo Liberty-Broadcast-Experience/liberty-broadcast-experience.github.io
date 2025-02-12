@@ -13,7 +13,7 @@ export default defineConfig({
         dark: './src/assets/dark-logo.png',
         replacesTitle: true,
       },
-      favicon: './src/assets/favicon.ico',
+      favicon: 'favicon.ico',
       head: [
         // Add a custom meta tag to define the author of all pages.
         {
