@@ -50,7 +50,7 @@ export default defineConfig({
           tag: 'link',
           attrs: {
             rel: 'manifest',
-            href: '../webmanifest.json',
+            href: '../dist/manifest.json',
           },
         },
         {
