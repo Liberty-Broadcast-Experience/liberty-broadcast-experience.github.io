@@ -1,4 +1,5 @@
 {
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
     "name": "LBX Training Portal",
     "short_name": "Training",
     "start_url": "/",
