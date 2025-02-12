@@ -10,50 +10,50 @@
     "icons": [
       {
         "purpose": "maskable",
-        "src": "../src/assets/Icons/mask-512.png",
+        "src": "pwa/icons/mask-512.png",
         "sizes": "512x512",
         "type": "image/png"
       },
       {
         "purpose": "maskable",
-        "src": "../src/assets/Icons/mask-128.png",
+        "src": "pwa/icons/mask-128.png",
         "sizes": "128x128",
         "type": "image/png"
       },
       {
         "purpose": "any",
-        "src": "../src/assets/Icons/mask-512.png",
+        "src": "pwa/icons/mask-512.png",
         "sizes": "512x512",
         "type": "image/png"
       },
       {
         "purpose": "any",
-        "src": "../src/assets/Icons/mask-128.png",
+        "src": "pwa/icons/mask-128.png",
         "sizes": "128x128",
         "type": "image/png"
       }
     ],
     "screenshots": [
         {
-          "src": "../src/assets/pwa/pwa-d-1.png",
+          "src": "pwa/screenshots/pwa-d-1.png",
           "type": "image/png",
           "sizes": "2494x1370",
           "form_factor": "wide"
         },
         {
-          "src": "../src/assets/pwa/pwa-d-2.png",
+          "src": "pwa/screenshots/pwa-d-2.png",
           "type": "image/png",
           "sizes": "2494x1370",
           "form_factor": "wide"
         },
         {
-          "src": "../src/assets/pwa/pwa-m-1.png",
+          "src": "pwa/screenshots/pwa-m-1.png",
           "type": "image/png",
           "sizes": "852x1668",
           "form_factor": "narrow"
         },
         {
-          "src": "../src/assets/pwa/pwa-m-2.png",
+          "src": "pwa/screenshots/pwa-m-2.png",
           "type": "image/png",
           "sizes": "852x1668",
           "form_factor": "narrow"
@@ -65,7 +65,7 @@
           "url": "/portal/video/camera/introduction",
           "icons": [
             {
-                "src": "../src/assets/Icons/video.png",
+                "src": "pwa/icons/video.png",
                 "sizes": "192x192",
                 "type": "image/png",
                 "purpose": "monochrome"
@@ -77,7 +77,7 @@
           "url": "/portal/stage/cable-guide",
           "icons": [
             {
-                "src": "../src/assets/Icons/gear.png",
+                "src": "pwa/icons/gear.png",
                 "sizes": "192x192",
                 "type": "image/png",
                 "purpose": "monochrome"
@@ -89,7 +89,7 @@
           "url": "/portal/general/intercom-etiquette",
           "icons": [
             {
-                "src": "../src/assets/Icons/comm.png",
+                "src": "pwa/icons/comm.png",
                 "sizes": "192x192",
                 "type": "image/png",
                 "purpose": "monochrome"
