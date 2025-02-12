@@ -4,7 +4,7 @@
     "start_url": "/",
     "id": "/",
     "description": "The LBX Training Portal is a central location where you can access helpful training information including videos, documents, tutorials, and more.",
-    "display": "minimal-ui",
+    "display": "standalone",
     "background_color": "#000000",
     "theme_color": "#181818",
     "icons": [
