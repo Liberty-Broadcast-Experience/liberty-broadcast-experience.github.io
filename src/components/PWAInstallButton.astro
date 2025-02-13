@@ -1,0 +1,39 @@
+---
+let deferredPrompt;
+let showButton = false;
+
+if (typeof window !== "undefined") {
+  window.addEventListener("beforeinstallprompt", (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    showButton = true;
+  });
+}
+
+const installApp = async () => {
+  if (deferredPrompt) {
+    deferredPrompt.prompt();
+    const { outcome } = await deferredPrompt.userChoice;
+    console.log("User choice:", outcome);
+  }
+};
+---
+
+{showButton && (
+  <button onClick={installApp} class="install-button">
+    Install App
+  </button>
+)}
+
+<style>
+  .install-button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+</style>

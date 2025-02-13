@@ -242,6 +242,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"portal/pwa/info.mdx": {
+	id: "portal/pwa/info.mdx";
+  slug: "portal/pwa/info";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
 "portal/sports/Basketball/broadcast.mdx": {
 	id: "portal/sports/Basketball/broadcast.mdx";
   slug: "portal/sports/basketball/broadcast";
