@@ -5,13 +5,16 @@ export default function PWAInstallButton() {
   const [showButton, setShowButton] = useState(false);
   const [isSafari, setIsSafari] = useState(false);
   const [alreadyInstalled, setAlreadyInstalled] = useState(false);
+  const [isFirefox, setIsFirefox] = useState(false);
 
   useEffect(() => {
     // Detect Safari (macOS & iOS)
     const isIOS = /iphone|ipad|ipod/.test(navigator.userAgent.toLowerCase());
     const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+    const isFirefox = /firefox/i.test(navigator.userAgent);
     
     setIsSafari(isIOS || isSafari);
+    setIsFirefox(isFirefox);
 
     // Check if the app is already installed
     const checkIfInstalled = () => {
@@ -58,7 +61,9 @@ export default function PWAInstallButton() {
 
   return (
     <>
-      {alreadyInstalled ? (
+      {isFirefox ? (
+        <p className="fallback-text">It appears you are using Firefox. This application is not supported on this browser.</p>
+      ) : alreadyInstalled ? (
         <p className="fallback-text">App is already installed.</p>
       ) : (showButton || isSafari) && (
         <button onClick={handleInstallClick} className="action primary">
