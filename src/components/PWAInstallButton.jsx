@@ -4,6 +4,7 @@ export default function PWAInstallButton() {
   const [deferredPrompt, setDeferredPrompt] = useState(null);
   const [showButton, setShowButton] = useState(false);
   const [isSafari, setIsSafari] = useState(false);
+  const [alreadyInstalled, setAlreadyInstalled] = useState(false);
 
   useEffect(() => {
     // Detect Safari (macOS & iOS)
@@ -11,6 +12,18 @@ export default function PWAInstallButton() {
     const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
     
     setIsSafari(isIOS || isSafari);
+
+    // Check if the app is already installed
+    const checkIfInstalled = () => {
+      if (
+        window.matchMedia("(display-mode: standalone)").matches ||
+        window.navigator.standalone
+      ) {
+        setAlreadyInstalled(true);
+      }
+    };
+
+    checkIfInstalled(); // Run on component mount
 
     // Handle Chromium-based browsers
     const handleBeforeInstallPrompt = (e) => {
@@ -20,9 +33,13 @@ export default function PWAInstallButton() {
     };
 
     window.addEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
+    window.addEventListener("DOMContentLoaded", checkIfInstalled);
+    window.addEventListener("visibilitychange", checkIfInstalled);
 
     return () => {
       window.removeEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
+      window.removeEventListener("DOMContentLoaded", checkIfInstalled);
+      window.removeEventListener("visibilitychange", checkIfInstalled);
     };
   }, []);
 
@@ -41,7 +58,9 @@ export default function PWAInstallButton() {
 
   return (
     <>
-      {(showButton || isSafari) && (
+      {alreadyInstalled ? (
+        <p className="fallback-text">App is already installed.</p>
+      ) : (showButton || isSafari) && (
         <button onClick={handleInstallClick} className="action primary">
           {isSafari ? "Add to Home Screen" : "Install App"}
         </button>
@@ -67,11 +86,11 @@ export default function PWAInstallButton() {
             background: var(--sl-color-text-accent);
             color: var(--sl-color-black);
           }
-          .action.secondary {
-            border: 1px solid;
-          }
-          .action.minimal {
-            padding-inline: 0;
+          .fallback-text {
+            font-size: var(--sl-text-base);
+            color: var(--sl-color-text);
+            text-align: left;
+            margin-top: 1rem;
           }
           @media (min-width: 50rem) {
             .action {
