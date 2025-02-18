@@ -17,6 +17,11 @@ export default defineConfig({
       },
       favicon: 'favicon.ico',
       lastUpdated: false,
+      components: {
+        // Override the default `SocialIcons` component.
+        Hero: './src/components/Hero.astro',
+        Card: './src/components/Card.astro',
+      },
       head: [
         // Add a custom meta tag to define the author of all pages.
         {
