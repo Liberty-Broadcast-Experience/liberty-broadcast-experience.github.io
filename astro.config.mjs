@@ -9,13 +9,14 @@ export default defineConfig({
   integrations: [
     react(),
     starlight({
-      title: 'Training Portal',
+      title: 'LBX Training',
       logo: {
         light: './src/assets/light-logo.png',
         dark: './src/assets/dark-logo.png',
         replacesTitle: true,
       },
       favicon: 'favicon.ico',
+      lastUpdated: false,
       head: [
         // Add a custom meta tag to define the author of all pages.
         {
