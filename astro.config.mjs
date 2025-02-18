@@ -40,11 +40,11 @@ export default defineConfig({
         {
           tag: 'script',
           content: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-5LQ11JNNVR');
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+      
+            gtag('config', 'G-5LQ11JNNVR');
           `,
         },
         {
@@ -75,6 +75,142 @@ export default defineConfig({
             rel: 'apple-touch-icon',
             sizes: '512x512',
             href: '../src/assets/Icons/ios-512.png',
+          },
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+        },
+        // Apple touch startup images
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'apple-touch-startup-image',
+            href: '/Users/drew/Downloads/splash/apple-splash-2048-2732.jpg',
+            media: '(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)',
+          },
+        },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'apple-touch-startup-image',
+            href: '/Users/drew/Downloads/splash/apple-splash-2732-2048.jpg',
+            media: '(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)',
+          },
+        },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'apple-touch-startup-image',
+            href: '/Users/drew/Downloads/splash/apple-splash-1668-2388.jpg',
+            media: '(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)',
+          },
+        },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'apple-touch-startup-image',
+            href: '/Users/drew/Downloads/splash/apple-splash-2388-1668.jpg',
+            media: '(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)',
+          },
+        },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'apple-touch-startup-image',
+            href: '/Users/drew/Downloads/splash/apple-splash-1536-2048.jpg',
+            media: '(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)',
+          },
+        },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'apple-touch-startup-image',
+            href: '/Users/drew/Downloads/splash/apple-splash-2048-1536.jpg',
+            media: '(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)',
+          },
+        },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'apple-touch-startup-image',
+            href: '/Users/drew/Downloads/splash/apple-splash-1290-2796.jpg',
+            media: '(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)',
+          },
+        },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'apple-touch-startup-image',
+            href: '/Users/drew/Downloads/splash/apple-splash-2796-1290.jpg',
+            media: '(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)',
+          },
+        },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'apple-touch-startup-image',
+            href: '/Users/drew/Downloads/splash/apple-splash-1179-2556.jpg',
+            media: '(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)',
+          },
+        },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'apple-touch-startup-image',
+            href: '/Users/drew/Downloads/splash/apple-splash-2556-1179.jpg',
+            media: '(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)',
+          },
+        },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'apple-touch-startup-image',
+            href: '/Users/drew/Downloads/splash/apple-splash-1170-2532.jpg',
+            media: '(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)',
+          },
+        },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'apple-touch-startup-image',
+            href: '/Users/drew/Downloads/splash/apple-splash-2532-1170.jpg',
+            media: '(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)',
+          },
+        },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'apple-touch-startup-image',
+            href: '/Users/drew/Downloads/splash/apple-splash-750-1334.jpg',
+            media: '(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)',
+          },
+        },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'apple-touch-startup-image',
+            href: '/Users/drew/Downloads/splash/apple-splash-1334-750.jpg',
+            media: '(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)',
+          },
+        },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'apple-touch-startup-image',
+            href: '/Users/drew/Downloads/splash/apple-splash-640-1136.jpg',
+            media: '(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)',
+          },
+        },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'apple-touch-startup-image',
+            href: '/Users/drew/Downloads/splash/apple-splash-1136-640.jpg',
+            media: '(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)',
           },
         }
       ],
