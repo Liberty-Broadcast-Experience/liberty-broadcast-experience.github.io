@@ -84,6 +84,13 @@ export default defineConfig({
             content: 'yes',
           },
         },
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'apple-mobile-web-app-title',
+            content: 'Training',
+          },
+        },
         // Apple touch startup images
         {
           tag: 'link',
