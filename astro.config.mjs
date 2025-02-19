@@ -218,7 +218,7 @@ export default defineConfig({
           attrs: {
             rel: 'apple-touch-startup-image',
             href: 'pwa/splash/apple-splash-1206-2622.jpg',
-            media: '(device-width: 402px) and (device-height: 874px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)',
+            media: 'screen and (device-width: 402px) and (device-height: 874px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)',
           },
         },
         {
