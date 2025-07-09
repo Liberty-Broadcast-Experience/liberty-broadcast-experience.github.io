@@ -4,7 +4,6 @@ declare module 'astro:content' {
 			Content: import('astro').MarkdownInstance<{}>['Content'];
 			headings: import('astro').MarkdownHeading[];
 			remarkPluginFrontmatter: Record<string, any>;
-			components: import('astro').MDXInstance<{}>['components'];
 		}>;
 	}
 }
@@ -470,6 +469,13 @@ declare module 'astro:content' {
 "portal/video/Shading/shading-training.mdx": {
 	id: "portal/video/Shading/shading-training.mdx";
   slug: "portal/video/shading/shading-training";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"portal/video/dw-convocc.mdx": {
+	id: "portal/video/dw-convocc.mdx";
+  slug: "portal/video/dw-convocc";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
