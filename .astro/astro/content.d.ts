@@ -271,6 +271,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"portal/sports/Hockey/hockey-camera-training.mdx": {
+	id: "portal/sports/Hockey/hockey-camera-training.mdx";
+  slug: "portal/sports/hockey/hockey-camera-training";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
 "portal/sports/diamond-sports.mdx": {
 	id: "portal/sports/diamond-sports.mdx";
   slug: "portal/sports/diamond-sports";
