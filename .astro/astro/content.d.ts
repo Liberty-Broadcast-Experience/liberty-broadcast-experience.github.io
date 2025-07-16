@@ -474,6 +474,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"portal/video/content-training-fall2025.mdx": {
+	id: "portal/video/content-training-fall2025.mdx";
+  slug: "portal/video/content-training-fall2025";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
 "portal/video/dw-convocc.mdx": {
 	id: "portal/video/dw-convocc.mdx";
   slug: "portal/video/dw-convocc";
