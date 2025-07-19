@@ -446,6 +446,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"portal/video/Camera/focus-tools.mdx": {
+	id: "portal/video/Camera/focus-tools.mdx";
+  slug: "portal/video/camera/focus-tools";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
 "portal/video/Camera/introduction.mdx": {
 	id: "portal/video/Camera/introduction.mdx";
   slug: "portal/video/camera/introduction";
