@@ -256,7 +256,8 @@ export default defineConfig({
       customCss: ['./src/styles.css'],
       social: {
         instagram: 'https://instagram.com/libertyu_production',
-        email: 'mailto:campusproduction@liberty.edu',
+        email: 'mailto:lepatterson1@liberty.edu?cc=dbwalker5@liberty.edu,sedonigan@liberty.edu',
+        microsoftTeams: 'https://teams.microsoft.com/l/chat/0/0?users=lepatterson1@liberty.edu',
       },
       sidebar: [
         {
